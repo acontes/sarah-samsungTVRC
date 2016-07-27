@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "SamsungTVRC"  : {
+      "description": "Remote for Samsung TV",
+      "version": "0.0.1",
+	  "IPtv":"",
+	  "Modeltv":""
+    }
+  }
+}

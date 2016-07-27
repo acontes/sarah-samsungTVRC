@@ -1,0 +1,71 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="SamsungTVRC" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="SamsungTVRC" scope="public">
+    <example>Sarah quelle est la météo pour demain ?</example>
+    <tag>out.action=new Object(); </tag>
+    <tag>out._attributes.dictation="false";</tag>
+	
+    <item>Sarah</item>
+    
+    <one-of>
+		<item>tv</item>
+		<item>télévision</item>
+		<item>écran</item>
+		<item>samsung</item>
+    </one-of>
+
+	<item repeat="0-1">
+      <one-of>
+        <item>plus<tag>out.action.command="KEY_CHUP"</tag></item>
+        <item>moins<tag>out.action.command="KEY_CHDOWN"</tag></item>
+		<item>suivant<tag>out.action.command="KEY_PRECH"</tag></item>
+        <item>plus fort<tag>out.action.command="KEY_VOLUP"</tag></item>
+        <item>moins fort<tag>out.action.command="KEY_VOLDOWN"</tag></item>
+        <item>coupe le son<tag>out.action.command="KEY_MUTE"</tag></item>
+        <item>à droite<tag>out.action.command="KEY_RIGHT"</tag></item>
+        <item>à gauche<tag>out.action.command="KEY_LEFT"</tag></item>
+        <item>en dessous<tag>out.action.command="KEY_DOWN"</tag></item>
+        <item>au dessus<tag>out.action.command="KEY_UP"</tag></item>
+		<item>menu<tag>out.action.command="KEY_MENU"</tag></item>
+        <item>guide<tag>out.action.command="KEY_GUIDE"</tag></item>
+		<item>info<tag>out.action.command="KEY_INFO"</tag></item>
+        <item>retour<tag>out.action.command="KEY_RETURN"</tag></item>
+        <item>sortir<tag>out.action.command="KEY_EXIT"</tag></item>
+        <item>source<tag>out.action.command="KEY_SOURCE"</tag></item>
+		<item>ok<tag>out.action.command="KEY_ENTER"</tag></item>
+		<item>valide<tag>out.action.command="KEY_ENTER"</tag></item>
+        <item>play<tag>out.action.command="KEY_PLAY"</tag></item>
+        <item>pause<tag>out.action.command="KEY_PAUSE"</tag></item>
+        <item>stop<tag>out.action.command="KEY_STOP"</tag></item>
+        <item>avancer<tag>out.action.command="KEY_FF"</tag></item>
+		<item>reculer<tag>out.action.command="KEY_REWIND"</tag></item>
+        <item>enregistrer<tag>out.action.command="KEY_REC"</tag></item>
+        <item>taille<tag>out.action.command="KEY_PICTURE_SIZE"</tag></item>
+        <item>outils<tag>out.action.command="KEY_TOOLS"</tag></item>
+		<item>contenu<tag>out.action.command="KEY_CONTENTS"</tag></item>
+		<item>0<tag>out.action.command="KEY_0"</tag></item>
+        <item>1<tag>out.action.command="KEY_1"</tag></item>
+		<item>2<tag>out.action.command="KEY_2"</tag></item>
+        <item>3<tag>out.action.command="KEY_3"</tag></item>
+        <item>4<tag>out.action.command="KEY_4"</tag></item>
+        <item>5<tag>out.action.command="KEY_5"</tag></item>
+        <item>6<tag>out.action.command="KEY_6"</tag></item>
+        <item>7<tag>out.action.command="KEY_7"</tag></item>
+        <item>8<tag>out.action.command="KEY_8"</tag></item>
+        <item>9<tag>out.action.command="KEY_9"</tag></item>
+		<item>10<tag>out.action.command="10"</tag></item>
+		
+	  </one-of>
+    </item>
+	
+	
+    
+
+    
+    
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/SamsungTVRC";</tag>
+  </rule>
+
+
+
+
+</grammar>

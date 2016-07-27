@@ -1,0 +1,66 @@
+{
+  "name": "samsung-remote",
+  "version": "1.2.5",
+  "description": "Remote client for Samsung SmartTV",
+  "main": "index.js",
+  "author": {
+    "name": "Andrei Zharov",
+    "email": "belmass@gmail.com",
+    "url": "http://www.o2v.net/"
+  },
+  "keywords": [
+    "samsung",
+    "smarttv",
+    "remote"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalan/samsung-remote.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Andrei Zharov",
+      "email": "belmass@gmail.com",
+      "url": "http://www.o2v.net/"
+    },
+    {
+      "name": "Mathieu Débit",
+      "url": "https://github.com/MathieuDebit"
+    }
+  ],
+  "gitHead": "c781fbc648e6bfe167c308238450ac433129fca8",
+  "bugs": {
+    "url": "https://github.com/natalan/samsung-remote/issues"
+  },
+  "homepage": "https://github.com/natalan/samsung-remote#readme",
+  "_id": "samsung-remote@1.2.5",
+  "scripts": {},
+  "_shasum": "f52d1dd4136cd778272e22b05a2005a0e0f2f882",
+  "_from": "samsung-remote@latest",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "andrei.zharau",
+    "email": "belmass@gmail.com"
+  },
+  "dist": {
+    "shasum": "f52d1dd4136cd778272e22b05a2005a0e0f2f882",
+    "tarball": "https://registry.npmjs.org/samsung-remote/-/samsung-remote-1.2.5.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "andrei.zharau",
+      "email": "belmass@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/samsung-remote/-/samsung-remote-1.2.5.tgz",
+  "readme": "ERROR: No README data found!"
+}
