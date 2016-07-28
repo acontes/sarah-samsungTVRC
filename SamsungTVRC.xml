@@ -3,12 +3,11 @@
     <example>Sarah quelle est la météo pour demain ?</example>
     <tag>out.action=new Object(); </tag>
     <tag>out._attributes.dictation="false";</tag>
-    <tag>out._attributes.command=[]</tag>
+    <tag>out.action.command=[]</tag>
 
     <item>Sarah</item>
 
     <one-of>
-		<item>tv</item>
 		<item>télévision</item>
 		<item>écran</item>
 		<item>samsung</item>
